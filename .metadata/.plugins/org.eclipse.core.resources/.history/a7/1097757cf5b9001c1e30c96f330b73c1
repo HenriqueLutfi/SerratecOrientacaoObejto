@@ -1,0 +1,13 @@
+package Exercicio1;
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		Funcionario f1= new Funcionario("henrique",1000);
+		
+		System.out.println("salario: R$" + f1.getSalario());
+		System.out.println("INSS: R$" + f1.calcularInss());
+		System.out.println("vt: R$"+f1.calcularValeTransporte());
+	}
+
+}

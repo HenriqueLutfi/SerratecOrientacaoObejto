@@ -1,0 +1,13 @@
+package Exemplo;
+
+public class Variaveis {
+	public static void main(String[] args) {
+		String text; // texto
+		int nume =1, num3 =3;//numero itneiro
+		float num=2.5f,num4=5; // com casa decimal
+		double num2=2.55555; // 
+		int soma;
+		soma = (int)(num+num4);
+		System.out.println(soma);
+	}
+}

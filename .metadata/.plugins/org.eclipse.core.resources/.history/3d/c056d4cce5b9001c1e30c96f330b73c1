@@ -1,0 +1,24 @@
+package org.serratec.model;
+
+import java.util.Scanner;
+
+public class TesteVeiculo {
+
+	public static void main(String[] args) {
+		char resposta = 's';
+		do {
+			Veiculo v1 = new Veiculo();
+			Scanner sc = new Scanner(System.in);
+			System.out.println("digite placa");
+			v1.placa = sc.next();
+			System.out.println("digite o tipo de combustivel");
+			v1.tipoCombustivel = sc.next();
+			System.out.println("digite o valor");
+			v1.valor = sc.nextDouble();
+			System.out.println("o valor do IPVA 2022" + v1.calcularIPVA());
+			System.out.println("Deseja continuar (S/s)");
+			resposta = sc.next().charAt(0);
+		} while(resposta == 's' || resposta == 's');
+	}
+
+}
