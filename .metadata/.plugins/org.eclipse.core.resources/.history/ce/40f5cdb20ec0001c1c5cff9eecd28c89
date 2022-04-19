@@ -18,8 +18,7 @@ public class TesteOficina {
 		System.out.println(carro.toString());
 		System.out.println();
 		System.out.println(moto.toString());
-		System.out.println("\nquantidade de veiculos: " + Veiculo.getQtdVeiculos() + "\nquantidade de carros: "
-				+ Carro.getQtdCarros() + "\nquantidade de motos: " + Moto.getQtdMotos());
+		System.out.println(Veiculo.getQtdVeiculos());
 	}
 
 }

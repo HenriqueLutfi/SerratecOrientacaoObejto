@@ -22,10 +22,6 @@ public class Moto extends Veiculo {
 				+ "\ndataConserto: " + dataConserto + "\ntotal pelos servicos: R$" + valorCobrado;
 	}
 
-	public static int getQtdMotos() {
-		return qtdMotos;
-	}
-
 	@Override
 	public double lavarVeiculo() {
 		super.valorCobrado += super.lavarVeiculo();

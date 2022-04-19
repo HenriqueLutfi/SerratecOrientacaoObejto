@@ -15,11 +15,6 @@ public class Carro extends Veiculo {
 	public String getCategoria() {
 		return categoria;
 	}
-	
-
-	public static int getQtdCarros() {
-		return qtdCarros;
-	}
 
 	@Override
 	public String toString() {
