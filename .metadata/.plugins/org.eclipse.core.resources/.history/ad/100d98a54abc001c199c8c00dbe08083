@@ -1,0 +1,6 @@
+package ExemploImpostoDeRenda;
+
+public class Pessoa {
+	protected String nome;
+	protected double rendimentos;
+}

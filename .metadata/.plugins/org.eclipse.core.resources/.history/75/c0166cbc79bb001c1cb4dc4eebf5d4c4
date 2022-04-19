@@ -1,0 +1,7 @@
+package exercicioAula2;
+
+public class TesteImovel {
+	Pessoa pessoa = new Pessoa("21321","roni","ror@haha");
+	Imovel imovel = new Imovel("casa",11212,pessoa);
+	
+}

@@ -1,0 +1,17 @@
+package Exercicio1Animal;
+
+public class Cavalo extends Mamifero implements AnimalCompeticao {
+
+	@Override
+	public void trocarFerradura() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void viajar() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

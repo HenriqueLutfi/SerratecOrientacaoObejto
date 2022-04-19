@@ -1,0 +1,28 @@
+package ExercicioLutaTurbinado;
+
+public class TesteLuta {
+
+	public static void main(String[] args) {
+		CategoriaLuta categoriaLuta = new CategoriaLuta(1, "peso medio",70,80);
+		CategoriaLuta categoriaLuta2 = new CategoriaLuta(2, "peso pesado",80,100);
+
+		NomeLutador nomeLutador = new NomeLutador("popo", 38, 75);
+		NomeLutador nomeLutador2 = new NomeLutador("caca", 25, 95);
+		NomeLutador nomeLutador3 = new NomeLutador("lulu", 32, 70);
+
+		NomeLuta luta = new NomeLuta(nomeLutador3, nomeLutador2, 10);
+		
+		//public void verificaCategoria() {
+			if (peso>70 && peso<80) {
+				
+			}
+		//}
+		
+		if(luta.confirmaLuta()) {
+			System.out.println("luta confirmada");
+		}else {
+			System.out.println("luta invalidade, categorias diferentes");
+		}
+	}
+
+}

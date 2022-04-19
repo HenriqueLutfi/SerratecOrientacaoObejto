@@ -1,0 +1,34 @@
+package ExercicioSalario;
+
+import java.util.Scanner;
+
+public class TesteSalario {
+
+	public static void main(String[] args) {
+		boolean finalizar=false;
+		double valorVenda;
+		int verificaVendedor;
+		String verificaSaida;
+		Fixo fixo = new Fixo("jao","12121",1000,10);
+		Fixo fixo2 = new Fixo("maria","5456",100,5);
+		Scanner sc = new Scanner(System.in);
+		while(finalizar==false) {
+			System.out.println("vendedores: \n"+"1 - "+fixo.getNome() + "\n2 - "+ fixo2.getNome());
+			verificaVendedor = sc.nextInt();
+			System.out.println("digite o valor da venda: ");
+			valorVenda=sc.nextDouble();
+			if (verificaVendedor==1) {
+				fixo.calcularSalario(valorVenda);
+			}else {
+				fixo2.calcularSalario(valorVenda);
+			}
+			System.out.println("deseja encerrar o programa (s/n): ");
+			verificaSaida=sc.next();
+			if (verificaSaida=="s") {
+				finalizar=true;
+			}
+		}
+		System.out.println("nome: \n"+"1 - "+fixo.getNome() + "\n salario bruto: R$"+ fixo.getSalarioBruto());
+	}
+
+}

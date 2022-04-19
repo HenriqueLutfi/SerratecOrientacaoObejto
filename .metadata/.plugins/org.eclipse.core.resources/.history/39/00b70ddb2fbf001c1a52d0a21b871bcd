@@ -1,0 +1,9 @@
+package Tributos;
+
+public class TotalTributos {
+	private double total;
+	
+	private void totalizarTributos(Tributos tributos) {
+		
+	}
+}

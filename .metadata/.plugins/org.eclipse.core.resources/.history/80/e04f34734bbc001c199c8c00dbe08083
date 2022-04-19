@@ -1,0 +1,31 @@
+package ExemploImpostoDeRenda;
+
+public class PessoaFisisca extends Pessoa implements Tributos {
+
+	private double rendimentos;
+
+	
+
+	public PessoaFisisca(String nome, double rendimentos, double rendimentos2) {
+		super(nome, rendimentos);
+		rendimentos = rendimentos2;
+	}
+
+	@Override
+	public String toString() {
+		return "PessoaFisisca [rendimentos=" + rendimentos + "]";
+	}
+
+	@Override
+	public double CalcularImpostoDeRenda() {
+		// TODO Auto-generated method stub
+		return rendimentos * rendimentos;
+	}
+	
+	@Override
+	public double calcularIcms() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

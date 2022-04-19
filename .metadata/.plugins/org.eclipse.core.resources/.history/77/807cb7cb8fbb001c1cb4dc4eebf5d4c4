@@ -1,0 +1,10 @@
+package ExercicioCidade;
+
+public class TesteCidade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

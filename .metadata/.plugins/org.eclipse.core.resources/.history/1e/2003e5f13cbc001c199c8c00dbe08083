@@ -1,0 +1,27 @@
+package Salario;
+
+public class Diretor extends Funcionario {
+	private String tipo;
+
+
+	
+	public Diretor(String nome, double salario, String tipo) {
+		super(nome, salario);
+		this.tipo = tipo;
+	}
+
+
+
+	public String getTipo() {
+		return tipo;
+	}
+
+
+
+	@Override
+	public void calcularAumentoSalario() {
+		salario = salario*0.1;
+
+	}
+
+}

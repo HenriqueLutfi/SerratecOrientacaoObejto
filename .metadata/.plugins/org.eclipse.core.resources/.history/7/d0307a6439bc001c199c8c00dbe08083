@@ -1,0 +1,5 @@
+package ExercicioImobiliaria;
+
+public class Apto extends Imovel {
+
+}

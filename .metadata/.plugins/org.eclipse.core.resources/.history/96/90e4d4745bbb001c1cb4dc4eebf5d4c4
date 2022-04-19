@@ -1,0 +1,23 @@
+package ExercicioSalario;
+
+import java.util.Scanner;
+
+public class TesteSalario {
+
+	public static void main(String[] args) {
+		boolean finalizar=false;
+		String verifica;
+		Fixo fixo = new Fixo("jao","12121",1000,10);
+		Fixo fixo2 = new Fixo("maria","5456",100,5);
+		Scanner sc = new Scanner(System.in);
+		while(finalizar==false) {
+			System.out.println("vendedores: \n"+"1 - "+fixo.getNome() + "\n 2 - "+ fixo2.getNome());
+			System.out.println("deseja encerrar o programa (s/n): ");
+			verifica=sc.next();
+			if (verifica=="s") {
+				finalizar=true;
+			}
+		}
+	}
+
+}

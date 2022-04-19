@@ -1,0 +1,9 @@
+package ExercicioPolicial;
+
+public class TestePolicial {
+	public static void main(String[] args) {
+		Policial p1 = new Policial();
+		Policial p2 = new Policial();
+		
+	}
+}

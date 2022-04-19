@@ -1,0 +1,5 @@
+package Exercicio1Animal;
+
+public class Cavalo extends Animal {
+	
+}

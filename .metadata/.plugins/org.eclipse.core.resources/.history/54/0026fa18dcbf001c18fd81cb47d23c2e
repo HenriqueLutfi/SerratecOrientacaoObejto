@@ -1,0 +1,5 @@
+package ExercicioOficina;
+
+public class Carro extends Veiculo {
+
+}

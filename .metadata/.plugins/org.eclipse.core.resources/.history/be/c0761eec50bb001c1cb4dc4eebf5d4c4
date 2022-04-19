@@ -1,0 +1,33 @@
+package ExercicioMaratona;
+
+public class Maratona {
+	protected String nome;
+	protected String sexo;
+	protected int idade;
+	protected double altura;
+
+	public Maratona(String nome, String sexo, int idade, double altura) {
+		super();
+		this.nome = nome;
+		this.sexo = sexo;
+		this.idade = idade;
+		this.altura = altura;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getSexo() {
+		return sexo;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+}

@@ -1,0 +1,22 @@
+package ExemploImpostoDeRenda;
+
+public abstract class  Pessoa {
+	protected String nome;
+	protected String endereco;
+	protected double rendimentos;
+	
+
+	
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", rendimentos=" + rendimentos + "]";
+	}
+
+	public String getNome() {
+		return nome;
+	}
+	public double getRendimentos() {
+		return rendimentos;
+	}
+	
+}

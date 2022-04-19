@@ -1,0 +1,24 @@
+package ExercicioOficina;
+
+public abstract class Veiculo implements Oficina {
+	
+	
+	@Override
+	public double levantarVeiculo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double trocarOleo() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double revisao() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

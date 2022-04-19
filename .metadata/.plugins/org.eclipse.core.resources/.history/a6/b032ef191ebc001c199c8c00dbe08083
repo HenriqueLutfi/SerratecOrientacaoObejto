@@ -1,0 +1,10 @@
+package ExercicioLuta;
+
+public class TesteLuta {
+
+	public static void main(String[] args) {
+		CategoriaLuta categoriaLuta = new CategoriaLuta(1)
+
+	}
+
+}

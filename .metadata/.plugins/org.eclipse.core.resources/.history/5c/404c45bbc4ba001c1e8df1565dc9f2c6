@@ -1,0 +1,13 @@
+package Exercicio2;
+
+public class Funcionario {
+	protected String nome, cpf;
+	protected double salario;
+	protected String turno;
+
+	public Funcionario(String nome, double salario) {
+		this.nome = nome;
+		this.salario = salario;
+	}
+
+}

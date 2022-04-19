@@ -1,0 +1,44 @@
+package ExercicioCidade;
+
+import ExercicioAtleta.Atleta;
+
+public class Contato {
+	private String nome;
+	private Telefone[] telefones;
+	private Endereco endereco;
+
+	public Contato(String nome) {
+		super();
+		this.nome = nome;
+		//this.telefones = telefones;
+		//this.endereco = endereco;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Telefone[] getTelefones() {
+		return telefones;
+	}
+
+	public void inserirEndereco(Endereco endereco) {
+		this.endereco=endereco;
+	}
+	
+	public void inserirAtletas(Telefone telefone) {
+		//conta a quantidade de index do vetor
+		for( int i= 0; i < telefones.length; i++) {
+			if (telefones[i]==null) {
+				telefones[i]= telefone;
+				return;
+			}
+		}
+		
+	}
+
+}

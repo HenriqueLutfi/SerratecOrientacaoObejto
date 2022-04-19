@@ -1,0 +1,21 @@
+package ExercicioLuta;
+
+public class CategoriaLuta {
+	private String codigo;
+	private String nomeCategoria;
+
+	public CategoriaLuta(String codigo, String nomeCategoria) {
+		super();
+		this.codigo = codigo;
+		this.nomeCategoria = nomeCategoria;
+	}
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public String getNomeCategoria() {
+		return nomeCategoria;
+	}
+
+}

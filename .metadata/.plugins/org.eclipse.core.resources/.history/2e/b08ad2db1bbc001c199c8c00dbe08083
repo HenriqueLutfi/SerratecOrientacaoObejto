@@ -1,0 +1,10 @@
+package ExercicioLuta;
+
+public class nomeLutador {
+	private String nome;
+	private CategoriaLuta categoriaLuta;
+	private int idade;
+	private double peso;
+	
+	
+}

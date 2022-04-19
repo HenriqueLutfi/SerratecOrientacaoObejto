@@ -1,0 +1,11 @@
+package Exercicio2Atletas;
+
+public class Atleta implements Olimpiadas {
+
+	@Override
+	public String verificaSituacao() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

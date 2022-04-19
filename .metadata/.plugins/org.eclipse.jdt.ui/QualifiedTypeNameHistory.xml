@@ -3,4 +3,13 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.serratec.model.conta"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="exercicioAula.ControlePagamento"/>
+    <fullyQualifiedTypeName name="ExemploEmpresa.Pessoa.Escolaridade"/>
+    <fullyQualifiedTypeName name="Exercicio1Animal.Tucano"/>
+    <fullyQualifiedTypeName name="Exercicio1Animal.Cachorro"/>
+    <fullyQualifiedTypeName name="ExercicioOficina.TipoServico"/>
+    <fullyQualifiedTypeName name="ExercicioOficina.Carro"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="ExercicioOficina.Moto"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+package Salario;
+
+public class Diretor extends Funcionario {
+
+	@Override
+	public void calcularAumentoSalario() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

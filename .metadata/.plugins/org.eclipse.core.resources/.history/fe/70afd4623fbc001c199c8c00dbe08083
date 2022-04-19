@@ -1,0 +1,11 @@
+package Salario;
+
+public abstract class Auxiliar extends Funcionario {
+
+	@Override
+	public void calcularAumentoSalario() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

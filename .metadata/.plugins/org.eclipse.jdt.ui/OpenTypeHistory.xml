@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=Aula4Heranca/src&lt;ExercicioAula{Medico.java[Medico" modifiers="1" timestamp="1649807797334"/>
+    <typeInfo handle="=Aula4Heranca/src&lt;Exercicio2{Funcionario.java[Funcionario" modifiers="1" timestamp="1649870876939"/>
+    <typeInfo handle="=Aula06 - interface/src&lt;Exercicio01Livraria{Livraria.java[Livraria" modifiers="513" timestamp="1650304756158"/>
+    <typeInfo handle="=Aula06 - interface/src&lt;Exercicio2Atletas{Olimpiadas.java[Olimpiadas" modifiers="513" timestamp="1650305561893"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;Exercicio1Animal{ave.java[ave" modifiers="1025" timestamp="1650326368209"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;Exercicio1Animal{Animal.java[Animal" modifiers="1025" timestamp="1650329154693"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;Exercicio1Animal{AnimalCompeticao.java[AnimalCompeticao" modifiers="513" timestamp="1650327056478"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;Exercicio1Animal{Mamifero.java[Mamifero" modifiers="1025" timestamp="1650327769223"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;Exercicio1Animal{AnimalDomestico.java[AnimalDomestico" modifiers="513" timestamp="1650327531883"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;ExercicioOficina{Oficina.java[Oficina" modifiers="513" timestamp="1650388496834"/>
+    <typeInfo handle="=Aula07Componentes/src&lt;ExercicioOficina{Veiculo.java[Veiculo" modifiers="1025" timestamp="1650390883578"/>
+</typeInfoHistroy>

@@ -1,0 +1,5 @@
+package Exercicio2;
+
+public class Assistente extends Funcionario {
+
+}

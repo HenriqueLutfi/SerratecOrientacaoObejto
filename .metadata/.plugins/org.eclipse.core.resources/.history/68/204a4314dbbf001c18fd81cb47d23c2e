@@ -1,0 +1,8 @@
+package ExercicioOficina;
+
+public interface Oficina {
+	double levantarVeiculo();
+	double trocarOleo();
+	double revisao();
+	
+}

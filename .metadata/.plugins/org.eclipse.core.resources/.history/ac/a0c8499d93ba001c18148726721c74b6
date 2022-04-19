@@ -1,0 +1,29 @@
+package Exercicio2;
+
+import java.util.Scanner;
+
+public class TestePessoa {
+	public static void main(String[] args) {
+		Pessoa[] p1 = new Pessoa();//declara variavel p1 como da classe Pessoa
+		Scanner sc = new Scanner(System.in);
+		double maiorPeso=0;
+		String nomeMaiorPeso;
+		int indexMaiorPeso;
+		for(int i=0;i<4;i++) {
+			System.out.println("Digite seu nome: ");
+			p1[i].nome=sc.next();//salva a String
+			System.out.println("Digite seu nome: ");
+			p1[i].altura=sc.nextDouble();//salva o numero double
+			System.out.println("Digite seu nome: ");
+			p1[i].peso=sc.nextDouble();
+		}
+		for(int i=0;i<4;i++) {
+			if(p1[i].peso>maiorPeso) {
+				maiorPeso=p1[i].peso;
+				nomeMaiorPeso=p1[i].nome;
+				indexMaiorPeso=i
+						p1[indexMaiorPeso].nome
+			}
+		}
+	}
+}

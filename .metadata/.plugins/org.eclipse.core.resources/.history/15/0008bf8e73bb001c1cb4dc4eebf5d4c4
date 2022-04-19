@@ -1,0 +1,16 @@
+package exercicioAula;
+
+public class Medico {
+	protected String crm;
+	protected String nomeMedico;
+	
+	public Medico(String crm, String nomeMedico) {
+		super();
+		this.crm = crm;
+		this.nomeMedico = nomeMedico;
+	}
+	@Override
+	public String toString() {
+		return super.toString() + "crm " + crm + "nome "+ nomeMedico;
+	}
+}

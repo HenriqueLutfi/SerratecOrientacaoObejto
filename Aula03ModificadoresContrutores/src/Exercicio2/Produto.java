@@ -6,6 +6,6 @@ public class Produto {
 	private int qtd;
 	
 	public double calcularIcms() {
-		
+		return valor*qtd*0.12;
 	}
 }
