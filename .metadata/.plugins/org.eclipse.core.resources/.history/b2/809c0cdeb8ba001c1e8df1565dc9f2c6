@@ -1,5 +1,0 @@
-package ExercicioAula;
-
-public class Anestesista extends Medico {
-
-}

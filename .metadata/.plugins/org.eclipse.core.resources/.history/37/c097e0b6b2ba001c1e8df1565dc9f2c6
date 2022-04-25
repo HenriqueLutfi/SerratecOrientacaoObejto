@@ -1,8 +1,0 @@
-package ExercicioAula;
-
-public class Veiculo {
-	private String Placa;
-	private String chassi;
-	private double valorIPVA;
-	private String cor;
-}
