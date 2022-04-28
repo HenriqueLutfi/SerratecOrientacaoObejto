@@ -1,7 +1,0 @@
-package ExemploFuncionarioPublico;
-
-public class FuncionarioPublico {
-	private String nome;
-	private String cargo;
-	private final int ANO_CONCURSO;
-}

@@ -1,8 +1,0 @@
-package ExemploEnumeradores;
-
-public enum PeriodoCurso {
-	INTEGRAL ("segunda a sexta",80,3600),
-	NOTURNO ("segunda a sexta",80,1200),
-	MANHA ("segunda a sexta",80,2400);
-	
-}

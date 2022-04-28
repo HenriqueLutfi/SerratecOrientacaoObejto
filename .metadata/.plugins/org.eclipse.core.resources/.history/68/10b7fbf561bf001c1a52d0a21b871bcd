@@ -1,9 +1,0 @@
-package ExercicioPolicial;
-
-public class TestePolicial {
-	public static void main(String[] args) {
-		Policial p1 = new Policial("123","jorge",5000,"brasilia","2323");
-		Policial p2 = new Policial("1222","adriano",6000,"rio","4654");
-		
-	}
-}

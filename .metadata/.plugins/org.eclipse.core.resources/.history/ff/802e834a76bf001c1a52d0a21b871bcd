@@ -1,7 +1,0 @@
-package Exercicio1Animal;
-
-public interface AnimalDomestico {
-	boolean lenvatarVeterinario();
-	boolean alimentar();
-	
-}

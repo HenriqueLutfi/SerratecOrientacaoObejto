@@ -6,14 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="tipoAnestesia"/>
+		<item key="selection" value="nome"/>
 		<list key="findhistory">
+			<item value="nme"/>
 			<item value="&#x09;&#x09;carro.valorCobrado+=carro.trocarOleo();"/>
 			<item value="TipoAnestesia"/>
 			<item value="verifica"/>
 			<item value="java"/>
 		</list>
 		<list key="replacehistory">
+			<item value="nome"/>
 			<item value="tipoAnestesia"/>
 			<item value="verificaSaida"/>
 			<item value="node"/>

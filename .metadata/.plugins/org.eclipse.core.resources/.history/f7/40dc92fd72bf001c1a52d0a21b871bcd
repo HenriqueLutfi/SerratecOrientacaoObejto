@@ -1,5 +1,0 @@
-package Exercicio1Animal;
-
-public abstract class ave extends Animal {
-
-}
