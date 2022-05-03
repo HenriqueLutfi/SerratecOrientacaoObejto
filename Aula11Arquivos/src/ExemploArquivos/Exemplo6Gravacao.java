@@ -10,7 +10,7 @@ public class Exemplo6Gravacao {
 		BufferedWriter bw;
 		try {
 			bw = new BufferedWriter(new FileWriter(
-					"C:\\Users\\kappa\\Documents\\Henrique\\projeto\\serratec\\orientacao objeto\\Exemplo\\exercicio2.txt"));
+					"C:\\Users\\kappa\\Documents\\Henrique\\projeto\\serratec\\orientacaoObjeto\\Exemplo\\exercicio2.txt"));
 			bw.append("serratec-java");
 			bw.append("lerolero");
 			bw.close();
